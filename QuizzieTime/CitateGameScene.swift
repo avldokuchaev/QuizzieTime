@@ -165,7 +165,7 @@ struct CitateGameScene: View {
                   Text(self.didTap)
                       .font(.title3)
                       .fontWeight(.bold)
-                      .foregroundColor(Color(red: 0.151, green: 0.015, blue: 0.01))
+                      .foregroundColor(.black)
                       .multilineTextAlignment(.center)
                       .padding(/*@START_MENU_TOKEN@*/.horizontal, 10.0/*@END_MENU_TOKEN@*/)
                   
@@ -209,7 +209,8 @@ struct CitateGameScene: View {
             self.didTap = "Правильный ответ"
             
         } else {
-            self.didTap = "Вы ошиблись"
+            let correct1 = citateQuiz1[random].correct
+            self.didTap = "Вы ошиблись. Правильный ответ:  \(citateQuiz1[random].answer[correct1!])"
             
         }
         //GO TO NEXT QUESTION

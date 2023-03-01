@@ -165,7 +165,7 @@ struct IstoriyaGameScene: View {
                   Text(self.didTap1)
                       .font(.title3)
                       .fontWeight(.bold)
-                      .foregroundColor(Color(red: 0.151, green: 0.015, blue: 0.01))
+                      .foregroundColor(.black)
                       .multilineTextAlignment(.center)
                       .padding(/*@START_MENU_TOKEN@*/.horizontal, 10.0/*@END_MENU_TOKEN@*/)
                   
@@ -209,7 +209,8 @@ struct IstoriyaGameScene: View {
             self.didTap1 = "Правильный ответ"
             
         } else {
-            self.didTap1 = "Вы ошиблись"
+            let correct1 = istoriyaQuiz1[random].correct
+            self.didTap1 = "Вы ошиблись. Правильный ответ:  \(istoriyaQuiz1[random].answer[correct1!])"
             
         }
         //GO TO NEXT QUESTION
