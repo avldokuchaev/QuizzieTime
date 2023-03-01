@@ -4,7 +4,7 @@
 //
 //  Created by Andrei Dokuchaev on 01.03.2023.
 //
-/*
+
 import Foundation
 
 //structure of single quiz
@@ -44,5 +44,4 @@ func SaveScore1(quiz1 : String , score1 : Int){
 func LoadScore1(quiz1 : String) -> Int{
     return UserDefaults.standard.integer(forKey: quiz1)
 }
-*/
-//vjhvj
+

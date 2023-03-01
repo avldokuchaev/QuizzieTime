@@ -4,7 +4,7 @@
 //
 //  Created by Andrei Dokuchaev on 01.03.2023.
 //
-/*
+
 import SwiftUI
 
 struct IstoriyaGameHome: View {
@@ -48,10 +48,11 @@ struct IstoriyaGameHome: View {
                 .buttonStyle(BunnerButton(img: Image(imag!["image"]!)))
                 
                 HStack {
-                    Button("< В меню") {
+                    Button("В меню") {
                         self.showsDetailViewController = true
                     }
-                    .padding(.leading, 10.0)
+                    .background(.blue)
+                    .padding()
                     .foregroundColor(.black)
                     .sheet(isPresented: $showsDetailViewController) {
                         NavigationMain()
@@ -80,7 +81,8 @@ struct IstoriyaGameHome: View {
                     Text("Последний счет: \(self.score1) / 10")
                         .font(.title2)
                         .fontWeight(.bold)
-                        .foregroundColor(Color(red: 0.151, green: 0.015, blue: 0.01))
+                        .foregroundColor(.black)
+                        .background(.orange)
                         .multilineTextAlignment(.center)
                         .padding(/*@START_MENU_TOKEN@*/.horizontal, 10.0/*@END_MENU_TOKEN@*/)
                         .onAppear(){ //refresh score
@@ -124,5 +126,3 @@ struct IstoriyaGameHome_Previews: PreviewProvider {
         IstoriyaGameHome()
     }
 }
-*/
-//

@@ -11,6 +11,8 @@ struct NavigationMain: View {
     
     @State private var showsDetailViewController: Bool = false
     @State private var showsDetailViewController1: Bool = false
+    @State private var showsDetailViewController2: Bool = false
+    
    
     
     private let imag = images.randomElement()
@@ -45,10 +47,11 @@ struct NavigationMain: View {
                 .buttonStyle(BunnerButton(img: Image(imag!["image"]!)))
                 
                 HStack {
-                    Button("< На главную") {
+                    Button("На главную") {
                         self.showsDetailViewController = true
                     }
-                    .padding(.leading, 10.0)
+                    .background(.blue)
+                    .padding()
                     .foregroundColor(.black)
                     .sheet(isPresented: $showsDetailViewController) {
                         ContentView()
@@ -87,19 +90,19 @@ struct NavigationMain: View {
                 
                 Spacer()
                 
-              /*  Button("История") {
-                    showsDetailViewController1.toggle()
+               Button("История") {
+                    showsDetailViewController2.toggle()
                 }
                 .padding(10)
                 .frame(width: 360.0)
                 .cornerRadius(10.0)
                 .foregroundColor(.white)
                 .background(.blue)
-                .sheet(isPresented: $showsDetailViewController1) {
+                .sheet(isPresented: $showsDetailViewController2) {
                     IstoriyaGameHome()
                 }
                 
-                Spacer()*/
+                Spacer()
                 
                 Image("KonfutsijNavigationMain")
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)

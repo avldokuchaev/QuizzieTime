@@ -126,7 +126,8 @@ struct ContentView: View {
                Text("Добро пожаловать в  игру  QuizzieTime")
                    .font(.title2)
                    .fontWeight(.bold)
-                   .foregroundColor(Color(red: 0.151, green: 0.015, blue: 0.01))
+                   .background(.orange)
+                   .foregroundColor(.black)
                    .multilineTextAlignment(.center)
                    .padding(/*@START_MENU_TOKEN@*/.horizontal, 10.0/*@END_MENU_TOKEN@*/)
                

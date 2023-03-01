@@ -4,7 +4,7 @@
 //
 //  Created by Andrei Dokuchaev on 01.03.2023.
 //
-/*
+
 import SwiftUI
 
 struct IstoriyaGameScene: View {
@@ -53,10 +53,11 @@ struct IstoriyaGameScene: View {
                 .buttonStyle(BunnerButton(img: Image(imag!["image"]!)))
                 
                 HStack {
-                    Button("< В меню") {
+                    Button("В меню") {
                         self.showsDetailViewController = true
                     }
-                    .padding(.leading, 10.0)
+                    .background(.blue)
+                    .padding()
                     .foregroundColor(.black)
                     .sheet(isPresented: $showsDetailViewController) {
                         NavigationMain()
@@ -87,6 +88,7 @@ struct IstoriyaGameScene: View {
                       .foregroundColor(Color(red: 0.151, green: 0.015, blue: 0.01))
                       .multilineTextAlignment(.center)
                       .padding(/*@START_MENU_TOKEN@*/.horizontal, 10.0/*@END_MENU_TOKEN@*/)
+                      .background(.orange)
                   
                  
                       
@@ -233,4 +235,4 @@ struct IstoriyaGameScene_Previews: PreviewProvider {
         IstoriyaGameScene()
     }
 }
-*/
+

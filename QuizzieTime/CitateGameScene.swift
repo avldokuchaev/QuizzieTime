@@ -53,10 +53,11 @@ struct CitateGameScene: View {
                 .buttonStyle(BunnerButton(img: Image(imag!["image"]!)))
                 
                 HStack {
-                    Button("< В меню") {
+                    Button("В меню") {
                         self.showsDetailViewController = true
                     }
-                    .padding(.leading, 10.0)
+                    .background(.blue)
+                    .padding()
                     .foregroundColor(.black)
                     .sheet(isPresented: $showsDetailViewController) {
                         NavigationMain()
@@ -87,6 +88,7 @@ struct CitateGameScene: View {
                       .foregroundColor(Color(red: 0.151, green: 0.015, blue: 0.01))
                       .multilineTextAlignment(.center)
                       .padding(/*@START_MENU_TOKEN@*/.horizontal, 10.0/*@END_MENU_TOKEN@*/)
+                      .background(.orange)
                   
                  
                       

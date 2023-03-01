@@ -4,7 +4,7 @@
 //
 //  Created by Andrei Dokuchaev on 01.03.2023.
 //
-/*
+
 import SwiftUI
 
 struct FinalScoreIstoriya: View {
@@ -55,7 +55,8 @@ struct FinalScoreIstoriya: View {
                 Text("Финальный счет: \(score1) / 10")
                   .font(.title2)
                   .fontWeight(.bold)
-                  .foregroundColor(Color(red: 0.151, green: 0.015, blue: 0.01))
+                  .background(.orange)
+                  .foregroundColor(.black)
                   .multilineTextAlignment(.center)
                   .padding(/*@START_MENU_TOKEN@*/.horizontal, 10.0/*@END_MENU_TOKEN@*/)
                     .onAppear(){
@@ -110,4 +111,4 @@ struct FinalScoreIstoriya_Previews: PreviewProvider {
         FinalScoreIstoriya()
     }
 }
-*/
+
