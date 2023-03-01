@@ -28,12 +28,391 @@ struct IstoriyaModel  {
 var istoriyaQuiz1 : [IstoriyaModel] = [
 
     IstoriyaModel(img: "img",
-    text: "Чем умнее человек, тем легче он признает себя дураком",
-    answer: ["Теодор Рузвельт","Альберт Эйнштейн","Стив Джобс","Мартин Лютер Кинг"],
+    text: "",
+    answer: ["","","",""],
+    correct: 0),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
     correct: 1),
     
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 2),
     
-]
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 3),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 0),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 1),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 2),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 3),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 0),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 1),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 2),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 3),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 0),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 1),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 2),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 3),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 0),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 1),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 2),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 3),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 0),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 1),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 2),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 3),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 0),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 1),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 2),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 3),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 0),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 1),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 2),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 3),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 0),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 1),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 2),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 3),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 0),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 1),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 2),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 3),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 0),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 1),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 2),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 3),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 0),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 1),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 2),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 3),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 0),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 1),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 2),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 3),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 0),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 1),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 2),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 3),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 0),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 1),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 2),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 3),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 0),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 1),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 2),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 3),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 0),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 1),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 2),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 3),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 0),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 1),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 2),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 3),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 0),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 1),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 2),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 3),
+    
+    IstoriyaModel(img: "img",
+    text: "",
+    answer: ["","","",""],
+    correct: 0),
+    
+ ]
 
 
 
