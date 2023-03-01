@@ -19,7 +19,7 @@
 		8B7B98B029AF9E68004FD962 /* IstoriyaGameHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B98AF29AF9E67004FD962 /* IstoriyaGameHome.swift */; };
 		8B7B98B229AF9E7C004FD962 /* IstoriyaGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B98B129AF9E7C004FD962 /* IstoriyaGameScene.swift */; };
 		8B7B98B429AF9E9A004FD962 /* FinalScoreIstoriya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B98B329AF9E9A004FD962 /* FinalScoreIstoriya.swift */; };
-		8B7B98B629AF9EB8004FD962 /* IstoriyaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B98B529AF9EB8004FD962 /* IstoriyaModel.swift */; };
+		8B7B98B629AF9EB8004FD962 /* istoriyaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B98B529AF9EB8004FD962 /* istoriyaModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +36,7 @@
 		8B7B98AF29AF9E67004FD962 /* IstoriyaGameHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IstoriyaGameHome.swift; sourceTree = "<group>"; };
 		8B7B98B129AF9E7C004FD962 /* IstoriyaGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IstoriyaGameScene.swift; sourceTree = "<group>"; };
 		8B7B98B329AF9E9A004FD962 /* FinalScoreIstoriya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalScoreIstoriya.swift; sourceTree = "<group>"; };
-		8B7B98B529AF9EB8004FD962 /* IstoriyaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IstoriyaModel.swift; sourceTree = "<group>"; };
+		8B7B98B529AF9EB8004FD962 /* istoriyaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = istoriyaModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 				8B7B98AB29ABE063004FD962 /* FinalScoreCitate.swift */,
 				8B7B98B329AF9E9A004FD962 /* FinalScoreIstoriya.swift */,
 				8B7B98AD29ABE18B004FD962 /* citateModel.swift */,
-				8B7B98B529AF9EB8004FD962 /* IstoriyaModel.swift */,
+				8B7B98B529AF9EB8004FD962 /* istoriyaModel.swift */,
 				8B7B989B29ABCFFC004FD962 /* Assets.xcassets */,
 				8B7B989D29ABCFFC004FD962 /* Preview Content */,
 			);
@@ -169,7 +169,7 @@
 				8B7B98B229AF9E7C004FD962 /* IstoriyaGameScene.swift in Sources */,
 				8B7B98AE29ABE18B004FD962 /* citateModel.swift in Sources */,
 				8B7B98AC29ABE063004FD962 /* FinalScoreCitate.swift in Sources */,
-				8B7B98B629AF9EB8004FD962 /* IstoriyaModel.swift in Sources */,
+				8B7B98B629AF9EB8004FD962 /* istoriyaModel.swift in Sources */,
 				8B7B989A29ABCFF8004FD962 /* ContentView.swift in Sources */,
 				8B7B98A829ABDAE4004FD962 /* CitateGameScene.swift in Sources */,
 				8B7B989829ABCFF8004FD962 /* QuizzieTimeApp.swift in Sources */,
