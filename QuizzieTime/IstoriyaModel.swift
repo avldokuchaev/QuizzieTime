@@ -558,70 +558,7 @@ var istoriyaQuiz1 : [IstoriyaModel] = [
              "Д.Кавелин"],
     correct: 0),
     
-    IstoriyaModel(img: "img",
-    text: "",
-    answer: ["",
-             "",
-             "",
-             ""],
-    correct: 1),
-    
-    IstoriyaModel(img: "img",
-    text: "",
-    answer: ["",
-             "",
-             "",
-             ""],
-    correct: 2),
-    
-    IstoriyaModel(img: "img",
-    text: "",
-    answer: ["",
-             "",
-             "",
-             ""],
-    correct: 3),
-    
-    IstoriyaModel(img: "img",
-    text: "",
-    answer: ["",
-             "",
-             "",
-             ""],
-    correct: 0),
-    
-    IstoriyaModel(img: "img",
-    text: "",
-    answer: ["",
-             "",
-             "",
-             ""],
-    correct: 1),
-    
-    IstoriyaModel(img: "img",
-    text: "",
-    answer: ["",
-             "",
-             "",
-             ""],
-    correct: 2),
-    
-    IstoriyaModel(img: "img",
-    text: "",
-    answer: ["",
-             "",
-             "",
-             ""],
-    correct: 3),
-    
-    IstoriyaModel(img: "img",
-    text: "",
-    answer: ["",
-             "",
-             "",
-             ""],
-    correct: 0),
-    
+   
  ]
 
 
